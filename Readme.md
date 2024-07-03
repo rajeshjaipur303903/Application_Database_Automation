@@ -5,6 +5,7 @@ Setting Up the Private Network
 Provisioning Remote Machines
 Configuring the Application and Database
 Apply Final Configuration
+Clean UP 
 ```
 
 1. Prerequisites
@@ -55,4 +56,8 @@ Mentioned all configuration in `route53.tf`
 terraform init
 terraform plan
 terraform apply
+```
+6. Clean up
+```
+terraform destroy
 ```
